@@ -9,7 +9,6 @@ const form = document.querySelector("form"),
     tel = document.querySelector('#tel')
 form.addEventListener("submit", async e => {
     e.preventDefault();
-    console.log(nom.value+" "+ depart.value+" "+ destination.value+" "+ nombre.value+" "+ email.value+" "+ message.value+" "+ dates.value)
     let a = nom.value,
         r = depart.value,
         t = destination.value,
@@ -28,7 +27,8 @@ form.addEventListener("submit", async e => {
             dates: d,
             messages: o,
             tele: p
-        }), nom.value = "", depart.value = "", destination.value = "", nombre.value = "", email.value = "", message.value = "",dates.value="", tel.value ="" 
+        }), nom.value = "", depart.value = "", destination.value = "", nombre.value = "", email.value = "", message.value = "",dates.value="", tel.value =""
+        console.log(nom.value+" "+ depart.value+" "+ destination.value+" "+ nombre.value+" "+ email.value+" "+ message.value+" "+ dates.value) 
     } catch (s) {
         console.error("oups! elle y a une erreur:", s)
     }
