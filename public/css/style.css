@@ -2613,13 +2613,13 @@ html {
   }
   
   .address {
-    color: #999;
+    color: #f0f0f0;
     margin-top: 4px;
     margin-bottom: 10px;
   }
   
   .footer-mail {
-    color: #999;
+    color: #f0f0f0;
     text-decoration: none;
     transition: color .3s;
   }
@@ -2638,14 +2638,14 @@ html {
   
   .ftr-text-wrap {
     grid-column-gap: 20px;
-    color: #999;
+    color: #f0f0f0;
     align-items: center;
     font-size: 14px;
     display: flex;
   }
   
   .footer-btm-link {
-    color: #999;
+    color: #f0f0f0;
     text-decoration: none;
     transition: color .3s;
   }
