@@ -9,6 +9,7 @@ const form = document.querySelector("form"),
     tel = document.querySelector('#tel')
 form.addEventListener("submit", async e => {
     e.preventDefault();
+    console.log(nom+" "+ depart+" "+ destination+" "+ nombre+" "+ email+" "+ message+" "+ dates)
     let a = nom.value,
         r = depart.value,
         t = destination.value,
