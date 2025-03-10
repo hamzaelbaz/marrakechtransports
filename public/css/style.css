@@ -5842,6 +5842,9 @@ td, th {
       width: 95%;
       margin: 32px auto 0 auto;
   }
+  td, th {
+    padding: 12px;
+  }
 }
 @media only screen and (max-width: 650px) {
   table {
@@ -5849,12 +5852,18 @@ td, th {
       width: 95%;
       margin: 32px auto 0 auto;
   }
+  td, th {
+    padding: 10px;
+  }
 }
 @media only screen and (max-width: 580px) {
   table {
       font-size: 10px;
       width: 95%;
       margin: 32px auto 0 auto;
+  }
+  td, th {
+    padding: 7px;
   }
 }
 @media only screen and (max-width: 490px) {
@@ -5869,5 +5878,8 @@ td, th {
       font-size: 8px;
       width: 95%;
       margin: 32px auto 0 auto;
+  }
+  td, th {
+    padding: 5px;
   }
 }
