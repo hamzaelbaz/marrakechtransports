@@ -5848,7 +5848,7 @@ td, th {
 }
 @media only screen and (max-width: 650px) {
   table {
-      font-size: 13px;
+      font-size: 14px;
       width: 95%;
       margin: 32px auto 0 auto;
   }
@@ -5858,7 +5858,7 @@ td, th {
 }
 @media only screen and (max-width: 580px) {
   table {
-      font-size: 10px;
+      font-size: 12px;
       width: 95%;
       margin: 32px auto 0 auto;
   }
@@ -5868,14 +5868,17 @@ td, th {
 }
 @media only screen and (max-width: 490px) {
   table {
-      font-size: 9px;
+      font-size: 11px;
       width: 95%;
       margin: 32px auto 0 auto;
+  }
+  td, th {
+    padding: 5px;
   }
 }
 @media only screen and (max-width: 460px) {
   table {
-      font-size: 8px;
+      font-size: 10px;
       width: 95%;
       margin: 32px auto 0 auto;
   }
