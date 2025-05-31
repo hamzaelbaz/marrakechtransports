@@ -13,13 +13,13 @@ exports.handler = async function (event, context) {
             service: 'gmail',
             auth: {
                 user: 'elbazhamzahb@gmail.com',
-                pass: 'sktv qkhi yagb cnxg',
+                pass: 'dgmi mkqx jwzy ptrt',
             },
         });
 
         let message = {
             from: 'elbazhamzahb@gmail.com',
-            to: 'taxistomarrakech@gmail.com',
+            to: 'Ahmedaminemerzouki@gmail.com',
             subject: 'Email de Contact',
             text: 'Hello world?',
             html: `
